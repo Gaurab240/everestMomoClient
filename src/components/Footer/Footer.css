@@ -1,0 +1,86 @@
+
+ .footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+ border-bottom: 1px dotted #6B788E;
+
+ 
+}
+
+.footer li, .secondColumn li{
+  list-style-type: none;
+
+}
+
+
+
+
+
+.footer li:hover{
+  cursor: pointer;
+  color:red
+}
+
+.fotdesc{
+ line-height: 30px;
+ color: #6B788E;
+ 
+  
+}
+
+.footer li:nth-of-type(n){
+  margin-bottom: 10px;
+}
+
+.iconFIrstRow, .iconSecondRow{
+  display: flex;
+ 
+}
+
+.iconFIrstRow li,.iconSecondRow li{
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+}
+
+.fourthColumn .socialIcon{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 22px;
+  background: #A6AEBB;
+color: white;
+  border-radius: 50%;
+height: 40px;
+width: 40px;
+
+
+}
+
+.secondColumn h3, .thirdColumn h3, .fourthColumn h3{
+  color: #0C6967;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.copyright{
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  padding-bottom: 20px;
+  /* or 19px */
+  
+  display: flex;
+
+  
+  /* Neutral/N200 */
+  
+  color: #6B788E;
+}

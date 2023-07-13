@@ -1,0 +1,32 @@
+.ingerdientItems{
+    background-image: url('herbs.png');
+    width: auto;
+    margin-bottom: 50px;
+   
+}
+
+.ingredientsUsed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 60px;
+}
+
+.forDough{
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    margin-top: 50px    ;
+}
+
+.h5AndforDough{
+    text-align: left;
+    align-items: start;
+    justify-content: flex-start;
+    
+}
+

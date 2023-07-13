@@ -1,0 +1,70 @@
+.navbar1{
+  background: #FFFFFF;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.menuLi {
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  color:  #6B788E;
+  margin-top: 5px;
+  font-weight: 500;
+
+}
+
+.menuLi div,
+.sociaMediaIcon div {
+  margin-left: 20px;
+}
+
+.menuLi div .activeLink {
+  text-decoration: none;
+  outline: none;
+  color:  #6B788E;
+ 
+}
+.sociaMediaIcon {
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  display: flex;
+
+ 
+  background: "#A6AEBB",
+}
+
+.icon{
+    
+    align-items: center;
+  justify-content: center;
+   /* Replace with your desired background color */
+  color:#6B788E;
+   text-align:center;
+  padding: 5px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+ padding: 5px !important;
+ padding-bottom: 9px !important;
+  
+}
+
+.but{
+  background: #D95103;
+border-radius: 100px;
+border: none;
+color:white;
+padding: 6px 11px;
+}

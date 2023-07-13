@@ -1,0 +1,41 @@
+.customerLove{
+    display: flex;
+    margin: 150px;
+    margin-top: 230px;
+}
+
+.custTextAndButton{
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    flex: 0.5;
+    margin-top: 50px;
+}
+
+.custImage{
+    flex: 0.5;
+}
+.custimageBackground{
+border-radius: 50% 50% 0 0;
+position: relative;
+background-color: #0C6967;
+width: 400px;
+
+height: 420px;
+
+}
+
+.custimageBackground img {
+    position: absolute;
+    top: -80px;
+    left: 6%;
+    width: 90%;
+
+  }
+
+  @media (max-width: 768px) {
+    .custimageBackground {
+      width: 300px;
+      height: 350px;
+    }
+  }

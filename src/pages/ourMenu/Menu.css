@@ -1,0 +1,68 @@
+
+.menuContent{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.textMenu{
+    color: #0c6967;
+    font-family: Allura;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    font-style: italic;
+}
+
+.ourMenuIsMore{
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 120%;
+}
+
+.scanMe{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buffMomo-container {
+    text-align: center;
+  }
+
+  /* Style the buffMomo */
+  .buffMomo {
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+
+  /* Create the left and right lines */
+  .buffMomo:before,
+  .buffMomo:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+   
+    width: 100vw; /* Adjust this value as needed */
+    border-top: 1px solid #000;
+    width: 325px;
+
+  }
+
+  /* Position the lines */
+  .buffMomo:before {
+    right: 100%; /* Position it to the left of the buffMomo */
+    margin-right: 10px; /* Adjust this value as needed */
+    
+  }
+
+  .buffMomo:after {
+    left: 100%; /* Position it to the right of the buffMomo */
+    margin-left: 10px; /* Adjust this value as needed */
+  }

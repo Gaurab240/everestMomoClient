@@ -1,0 +1,96 @@
+.imageAndDineWithUs {
+    position: relative;
+    width: 100%;
+    height: 550px;
+  }
+  
+  .imageAndDineWithUs .dineWith {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .imageAndDineWithUs::before,
+  .imageAndDineWithUs::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .imageAndDineWithUs::before {
+    background-image: url('Image1.png');
+  }
+  
+  .imageAndDineWithUs::after {
+    background-image: url('Shadow2.png');
+  }
+  
+  .dineWith{
+    justify-content: center !important;
+  text-align: left !important;
+  left: 30% !important;
+  top:75% !important
+  }
+  
+  .dineWith button{
+    background-color:#0C6967;
+    color:white;
+    border-radius: 100px;
+    padding:16px 32px 16px 32px
+  }
+
+  .privatePartyAndCarousel{
+      padding: 50px;
+      display: flex;
+  }
+
+  
+  .privatepartyCarousel{
+      flex: 0.5;
+  }
+
+  .privatePartyAndCarousel{
+      display: flex;
+      flex-direction: column;
+      flex:0.5
+  }
+
+  .divContainerforPrivatePartyAndCarousel{
+      display: flex;
+      margin-top: 50px;
+      margin: 80px;
+  }
+
+  .scanTheQrAndQr{
+      display: flex;
+      gap: 25px;
+      
+  }
+
+  .scanTheQrText{
+      display: flex;
+      flex-direction: column;
+  }
+
+ /* ourservices.css */
+
+ 
+  
+.gotAnyQueries{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.second{
+  margin-bottom:40px
+}
+  

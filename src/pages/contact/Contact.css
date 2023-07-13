@@ -1,0 +1,63 @@
+.content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.content .textContact {
+  color: #0c6967;
+  font-family: Allura;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 120%;
+  font-style: italic;
+}
+
+.content .getInTouch {
+  color: #6b788e;
+  letter-spacing: 0.12em;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.ourFriendlyTeam {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 120%;
+}
+
+
+
+.locAndContForm {
+  display: flex;
+}
+
+.contForm {
+  gap: 48px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.contForm h2{
+    font-size: 31px;
+line-height: 120%;
+}
+
+.contForm p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 180%;
+}
+
+

@@ -1,0 +1,113 @@
+.aboutUs{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutUsAndImage{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.wePrideOurselfOn{
+    display: flex;
+    flex-direction: column;
+    flex:0.5;
+    margin: 5%;
+    text-align: left;
+}
+
+.whiteGirl{
+    flex: 0.5;
+    margin-left: 20px;
+}
+
+.momosAreMadeWithLove{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 90px;
+}
+
+.momosAreMadeWithLoveInner{
+    display: flex;
+}
+
+.ourMomoText{
+  justify-content: center;
+  text-align-last: left;
+  flex:0.5;
+  
+}
+
+.ourMomoText p{
+  text-align:left !important;
+  margin-right: 50px;
+}
+
+.ourMomosAreImage{
+  flex:0.5
+}
+
+.imageAndProcessBehind {
+  position: relative;
+  width: 100%;
+  height: 550px;
+}
+
+.imageAndProcessBehind .processBehind {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.imageAndProcessBehind::before,
+.imageAndProcessBehind::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.imageAndProcessBehind::before {
+  background-image: url('Image.png');
+}
+
+.imageAndProcessBehind::after {
+  background-image: url('Shadow.png');
+}
+
+.processBehind{
+  justify-content: center !important;
+text-align: left !important;
+left: 30% !important;
+top:75% !important
+}
+
+.processBehind button{
+  background-color:#0C6967;
+  color:white;
+  border-radius: 100px;
+  border: none;
+  padding:16px 32px 16px 32px
+}
+
+.meetTheTeam{
+  margin-top: 50px;
+}
+
+.meetTheTeam p{
+  color:#0C6967;
+  font-size: 25px;
+  font-weight: bold;
+
+}

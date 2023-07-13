@@ -1,0 +1,63 @@
+.card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .card3 .firstCard,
+  .secondCard,
+  .thirdCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 40px;
+    margin-right: 10px;
+    text-align: left;
+    width: 330px;
+    height: 225px;
+    background: #ffffff;
+    /* Card Shadow */
+  
+    box-shadow: 19px 21px 17px rgba(0, 0, 0, 0.02),
+      9px 10px 13px rgba(0, 0, 0, 0.03), 2px 2px 7px rgba(0, 0, 0, 0.03),
+      0px 0px 0px rgba(0, 0, 0, 0.03);
+    border-radius: 16px;
+  }
+  
+  .location,
+  .phone,
+  .serviceT {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    gap: 25px;
+  }
+  
+  .location div,
+  .location h4,
+  .phone div,
+  .phone h4,
+  .serviceT div,
+  .serviceT h4 {
+    font-size: 20px !important;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+  }
+  
+  .firstCard h3,
+  .secondCard h3,
+  .thirdCard h3 {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    line-height: 19px;
+  }

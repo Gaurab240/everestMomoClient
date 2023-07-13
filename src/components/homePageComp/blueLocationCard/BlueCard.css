@@ -1,0 +1,47 @@
+.bluecard{
+    justify-content: left;
+    text-align: left;
+    align-items: flex-start;
+    
+}
+
+.blue{
+    background-color: #0C6967;
+    border-radius: 16px;
+    justify-content: flex-start;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:white;
+   padding: 32px;
+}
+
+.mdLocOurAdd{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+   
+}
+
+.mobileAndLand, .monFriSunSat{
+    display: flex;
+    gap:55px;
+}
+.blue .divCard{
+margin-bottom: 25px;
+}
+
+.getSocialIcon{
+    justify-content: flex-start;
+    align-items: start;
+    text-align: left;
+   display: flex;
+   gap:15px
+}
+
+.getSocialIcon div{
+    height: 32px;
+    width: 32px;
+}

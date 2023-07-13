@@ -1,0 +1,37 @@
+.qCardRow{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    margin: 20px
+}
+
+.qCardRow .firstQCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+    margin: 20px;
+}
+
+.qCardBut{
+    color:white;
+    background-color: #0C6967;
+    padding: 5px 30px 5px 30px;
+    border-radius: 80px;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+}
+
+.qCardBut p{
+    font-size:20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 8px;
+    
+}

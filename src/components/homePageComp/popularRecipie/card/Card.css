@@ -1,0 +1,51 @@
+.popularRecipie{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+
+.popularRecipie .tabs{
+display: flex;
+justify-content: center;
+
+}
+
+.popularRecipie .buff{
+
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 48px;
+    gap: 8px;
+    
+    width: 133px;
+    height: 56px;
+    
+    /* Off Color/Off-Black */
+    border: 2px solid #101828;
+    border-radius: 100px;
+    
+   
+    
+  
+    
+    /* Heading Style/H6 */
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+  
+    /* Off Color/Off-Black */   
+    color: #101828;
+    
+    
+ 
+    
+}
+
+/* Frame 47 */
+

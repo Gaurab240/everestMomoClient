@@ -1,0 +1,12 @@
+.getInTouch{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.addAndForm{
+    margin: 60px 150px;
+    gap:50px
+}
+

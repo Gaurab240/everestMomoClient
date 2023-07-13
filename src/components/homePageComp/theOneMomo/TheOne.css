@@ -1,0 +1,46 @@
+.theOne{
+    margin-bottom: 150px !important;
+}
+.theOneAndImage {
+    display: flex;
+  }
+  
+  .theOneText {
+    flex: 1;
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+    text-align: left;
+    margin: 5%;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 150px;
+  }
+  
+  .theOneImage {
+    flex: 1;
+    position: relative;
+  }
+  
+  .logoContainer {
+    position: absolute;
+    left: 45%;
+    top: 25%;
+    transform: translate(-50%, 0);
+    width: 100%;
+  }
+  
+  .logo1 {
+    width: 70%;
+    height: 150%;
+    margin-top: 80px;
+    position: absolute;
+    right: 00px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+
+  .qCardBut{
+    border: none;
+  }
+  
