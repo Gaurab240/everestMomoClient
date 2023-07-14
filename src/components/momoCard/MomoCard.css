@@ -83,3 +83,15 @@ color: #D95103
 /* .momoCard .momoItem:first-child h4 {
   margin-top: -10px;
 } */  
+
+.newCategory {
+  background-color: #d95103;
+}
+
+.popularCategory {
+  background-color: #c71720;
+}
+
+.recommendedCategory {
+  background-color: #0072e3;
+}

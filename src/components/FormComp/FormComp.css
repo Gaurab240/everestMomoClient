@@ -1,62 +1,76 @@
-
-.formComp form label{
+.formComp form label {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
     color: black;
-}
-
-
-
-.formComp form .labelAndInput{
+  }
+  
+  .formComp form .labelAndInput {
     display: flex;
     justify-content: space-between;
-   
     align-items: center;
+  }
   
-}
-
-.formComp .labelAndInput input{
-    color:black;
-    opacity: 0.4;
-}
-
-.formComp form input{
+  .formComp .labelAndInput input,
+  .whatWECanBelow input {
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+  }
+  
+  .formComp form input {
     padding: 10px 0px;
-gap: 8px;
-margin-top: 8px;
-margin-bottom: 16px;
-outline: none;
-}
-
-.whatWECanBelow label{
+    gap: 8px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    outline: none;
+  }
+  
+  .whatWECanBelow label {
     width: 100%;
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-}
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .whatWECanBelow input {
+    width: 100%;
+    color: black;
+  }
 
-.whatWECanBelow input{
-width: 100%;
-color:#98A1B0;
-opacity: 0.4;
-}
+  .dropdownInputWrapper :hover{
+    cursor: pointer;
+  }
 
-.whatWECanBelow .msg input{
+  .mDDropdownHide{
+    display: none;
+  }
+  
+  .whatWECanBelow .msg input {
     height: 70px;
-}
-
-.formComp .sendMsg{
+  }
+  
+  .formComp .sendMsg {
     justify-content: center;
     align-items: center;
-   padding: 5px 27px;
+    padding: 5px 27px;
     width: 200px;
     height: 70px;
     border: none;
     /* Secondary/secondary-6 */
-    color:white;
+    color: white;
     background: #0C6967;
     border-radius: 100px;
     font-size: 16px;
-}
+  }
+
+  .dropdownInputWrapper{
+    position: relative;
+  }
+
+  .mDDropdown :hover{
+    cursor: pointer;
+  }
+  
+  
